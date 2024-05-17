@@ -13,24 +13,44 @@ After logging into my AWS account, I headed straight to the S3 service by search
 ![picture](./images/CL-1.png)
 
 ![picture](./images/CL-2.png)
+
 ![picture](./images/CL-3.png)
+
+
 2- Once the bucket was set up, I clicked on its name to access it. Here, I found the option to upload files. I clicked on "Upload" and selected the static files for my website—HTML, CSS, and any images I planned to use. After confirming all files were ready, I clicked "Upload" to move everything to the root directory of my new S3 bucket.
 
 ![picture](./images/CL-5.png)
+
+
 ![picture](./images/CL-6.png)
+
+
 ![picture](./images/CL-7.png)
 
 3.Once my files were uploaded, the next step was to make them accessible as a website. To do this, I navigated to the Permissions tab of my bucket. Here, I found the option for Static website hosting. I clicked on it to configure the settings needed to serve my static content. I enabled static website hosting by selecting the option "Use this bucket to host a website." In the text boxes provided, I entered the name of my index document which is **index.html**. After filling in these details, I saved the settings.
+
+
 ![picture](./images/CL-8.png)
+
+
 ![picture](./images/CL-9.png)
+
+
 ![picture](./images/CL-10.png)
+
 
 4. Next, i went to the bucket, i selected the objects then actions, Make public using ACL.
 After that i went to the properties of my bucket, copied the URL of the static website, opened a new tab and pasted it. My webapp is accessible but NOT SECURE. In this case, we need to configure a CloudFront Distribution to make it secure.
 
 ![picture](./images/CL-11.png)
+
+
 ![picture](./images/CL-12.png)
+
+
 ![picture](./images/CL-13.png)
+
+
 ![picture](./images/CL-14.png)
 ---
 ---
