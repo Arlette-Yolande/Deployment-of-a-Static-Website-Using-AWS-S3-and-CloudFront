@@ -22,7 +22,13 @@ After logging into my AWS account, I headed straight to the S3 service by search
 ![picture](./images/CL-5.png)
 
 
+*  Uploaded folders
+
+
 ![picture](./images/CL-6.png)
+
+
+* Uploaded files
 
 
 ![picture](./images/CL-7.png)
