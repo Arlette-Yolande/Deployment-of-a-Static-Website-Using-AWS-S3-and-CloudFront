@@ -69,32 +69,54 @@ After that i went to the properties of my bucket, copied the URL of the static w
 
 ![picture](./images/CL-15.png)
 
+
+
 ![picture](./images/CL-16.png)
+
+
 
 ![picture](./images/CL-17.png)
 
+
+
 ![picture](./images/CL-18.png)
+
+
 
 ![picture](./images/CL-19.png)
 
+
+
 ![picture](./images/CL-20.png)
+
 
 7- Continuing with the configuration, I scrolled down to the distribution settings and set the Default root object to **index.html**, ensuring that CloudFront serves the **index.html** file when accessing the root URL of the distribution.
 
+
 ![picture](./images/CL-21.png)
+
 
 8-  Upon clicking Create distribution, CloudFront began to deploy, and it automatically generated a new policy for the S3 bucket. I copied this policy and went back to my S3 bucket settings to update the policy accordingly. This ensures that the permissions are correctly set to allow CloudFront to access the S3 bucket.
 
+
 ![picture](./images/CL-22.png)
 
+
 ![picture](./images/CL-23.png)
+
+
 
 9- Went the CloudFront Distribution was Enable, i clicked on the distribution ID, copied the distribution domain name and pasted in a new tab  my browser.
 
 Behold, my static-website was successfully deployed and secure as expected.
 
+
 ![picture](./images/CL-24.png)
 
+
+
 ![picture](./images/CL-25.png)
+
+
 
 So, this is how to host a static website on a s3 bucket and be able to access it using CloudFront.
