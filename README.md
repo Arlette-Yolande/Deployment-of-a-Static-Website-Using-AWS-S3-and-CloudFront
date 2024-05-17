@@ -5,6 +5,16 @@ This project outlines the steps to set up a static website using AWS services. W
 But, you might be wondering what is CloudFront and what is its usefullness. According to Amazon Web Service Amazon CloudFront speeds up distribution of your static and dynamic web content, such as .html, .css, .php, image, and media files. When users request your content, CloudFront delivers it through a worldwide network of edge locations that provide low latency and high performance.
 ---
 ---
+
+# Download a staticwebsite 
+
+The first thing to do is to download a static website from any of the following link and extract all.  
+
+https://www.themezy.com/free-website-templates/246-free-responsive-app-website-template      or  
+
+https://www.tooplate.com/
+
+
 # Creating and Configuring the S3 Bucket
 
 After logging into my AWS account, I headed straight to the S3 service by searching for "S3" in the console's search bar. I needed to create a new bucket for my static website, so I clicked on "Create bucket." I named this bucket  
@@ -114,9 +124,6 @@ Behold, my static-website was successfully deployed and secure as expected.
 ![picture](./images/CL-24.png)
 
 
-
 ![picture](./images/CL-25.png)
-
-
 
 So, this is how to host a static website on a s3 bucket and be able to access it using CloudFront.
